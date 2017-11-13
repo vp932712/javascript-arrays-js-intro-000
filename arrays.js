@@ -22,7 +22,7 @@ for ( var i = 0; i < array.length; i ++){
   return empty;
 }
 function destructivelyAddElementToEndOfArray(array, element){
-  arrar.push(element);
+  array.push(element);
   return array;
 }
 function accessElementInArray(array, index){
