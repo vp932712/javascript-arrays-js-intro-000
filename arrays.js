@@ -28,3 +28,15 @@ function destructivelyAddElementToEndOfArray(array, element){
 function accessElementInArray(array, index){
   return array[index];
 }
+
+function destructivelyRemoveElementToBeginningOfArray(array){
+  array.shift();
+  return array;
+}
+function removeElementFromBeginningOfArray(array){
+  var empty = []
+  for ( var i = 1; i < array.length; i ++){
+    empty.push(array[i]);
+  }
+  return empty;
+}
