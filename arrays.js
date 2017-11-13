@@ -40,3 +40,15 @@ function removeElementFromBeginningOfArray(array){
   }
   return empty;
 }
+function destructivelyRemoveElementFromEndOfArray(array){
+  array.pop()
+  return array;
+  
+}
+function removeElementFromEndOfArray(array){
+  var empty = [];
+  for ( var i = 0 ; i < array.length-1; i ++){
+    empty.push(array[i])
+  }
+  return (empty);
+}
